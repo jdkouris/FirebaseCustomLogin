@@ -16,6 +16,8 @@
 		290C9044234FEB2900C4938B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C9043234FEB2900C4938B /* SignUpViewController.swift */; };
 		290C9046234FEB3000C4938B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C9045234FEB3000C4938B /* LoginViewController.swift */; };
 		290C9048234FEB3800C4938B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C9047234FEB3800C4938B /* HomeViewController.swift */; };
+		296534CD234FF028003401C8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296534CC234FF028003401C8 /* Utilities.swift */; };
+		296534CF234FF1DE003401C8 /* FormUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296534CE234FF1DE003401C8 /* FormUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		290C9043234FEB2900C4938B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		290C9045234FEB3000C4938B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		290C9047234FEB3800C4938B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		296534CC234FF028003401C8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		296534CE234FF1DE003401C8 /* FormUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		290C902E234FEAFF00C4938B /* FirebaseCustomLogin */ = {
 			isa = PBXGroup;
 			children = (
+				296534CB234FF016003401C8 /* Helpers */,
 				290C9049234FEB4300C4938B /* View Controllers */,
 				290C902F234FEAFF00C4938B /* AppDelegate.swift */,
 				290C9031234FEAFF00C4938B /* SceneDelegate.swift */,
@@ -82,6 +87,15 @@
 				290C9033234FEAFF00C4938B /* ViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		296534CB234FF016003401C8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				296534CC234FF028003401C8 /* Utilities.swift */,
+				296534CE234FF1DE003401C8 /* FormUtilities.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +171,11 @@
 			files = (
 				290C9034234FEAFF00C4938B /* ViewController.swift in Sources */,
 				290C9030234FEAFF00C4938B /* AppDelegate.swift in Sources */,
+				296534CD234FF028003401C8 /* Utilities.swift in Sources */,
 				290C9044234FEB2900C4938B /* SignUpViewController.swift in Sources */,
 				290C9046234FEB3000C4938B /* LoginViewController.swift in Sources */,
 				290C9032234FEAFF00C4938B /* SceneDelegate.swift in Sources */,
+				296534CF234FF1DE003401C8 /* FormUtilities.swift in Sources */,
 				290C9048234FEB3800C4938B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
