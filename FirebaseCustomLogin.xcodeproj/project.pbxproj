@@ -66,10 +66,10 @@
 		290C902E234FEAFF00C4938B /* FirebaseCustomLogin */ = {
 			isa = PBXGroup;
 			children = (
-				296534CB234FF016003401C8 /* Helpers */,
-				290C9049234FEB4300C4938B /* View Controllers */,
 				290C902F234FEAFF00C4938B /* AppDelegate.swift */,
 				290C9031234FEAFF00C4938B /* SceneDelegate.swift */,
+				296534CB234FF016003401C8 /* Helpers */,
+				290C9049234FEB4300C4938B /* View Controllers */,
 				290C9035234FEAFF00C4938B /* Main.storyboard */,
 				290C9038234FEB0000C4938B /* Assets.xcassets */,
 				290C903A234FEB0000C4938B /* LaunchScreen.storyboard */,
