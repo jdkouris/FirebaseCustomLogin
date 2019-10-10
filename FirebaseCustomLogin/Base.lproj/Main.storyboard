@@ -92,11 +92,14 @@
                                             <constraint firstAttribute="height" constant="40" id="BC1-sg-aFW"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <action selector="signUpButtonTapped:" destination="JEq-ft-wWt" eventType="touchUpInside" id="wLW-vB-eBw"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kly-OG-n2d">
                                         <rect key="frame" x="0.0" y="300" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -117,6 +120,14 @@
                         <viewLayoutGuide key="safeArea" id="hTh-B0-lbO"/>
                     </view>
                     <navigationItem key="navigationItem" id="BDD-H1-v33"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="AnP-Or-Ma5" id="5rF-rI-oHc"/>
+                        <outlet property="errorLabel" destination="kly-OG-n2d" id="AXl-DY-p7A"/>
+                        <outlet property="firstNameTextField" destination="PDd-YS-1M7" id="Hn2-4H-UHa"/>
+                        <outlet property="lastNameTextField" destination="vEW-TJ-obe" id="Qd2-yQ-0Op"/>
+                        <outlet property="passwordTextField" destination="Q2b-2Q-B09" id="RQK-4t-oO7"/>
+                        <outlet property="signUpButton" destination="Kgz-FP-FCD" id="xfd-Fz-pRP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wpp-7T-6Qg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -166,11 +177,14 @@
                                             <constraint firstAttribute="height" constant="40" id="XoF-1L-hN5"/>
                                         </constraints>
                                         <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="loginButtonTapped:" destination="EtY-r7-ynZ" eventType="touchUpInside" id="9Ey-sV-zfd"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcS-f1-0GQ">
                                         <rect key="frame" x="0.0" y="180" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -189,6 +203,12 @@
                         <viewLayoutGuide key="safeArea" id="LPL-jz-NRJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="ht3-QV-5JC"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="9Vs-dT-rvi" id="f11-4w-QCB"/>
+                        <outlet property="errorLabel" destination="BcS-f1-0GQ" id="5Zu-la-yOw"/>
+                        <outlet property="loginButton" destination="kx8-qp-TCD" id="kIe-QC-PPa"/>
+                        <outlet property="passwordTextField" destination="EKc-x9-Fdc" id="ldX-pk-gZ7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3Z-gm-JDH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
