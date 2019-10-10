@@ -18,6 +18,7 @@
 		290C9048234FEB3800C4938B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C9047234FEB3800C4938B /* HomeViewController.swift */; };
 		296534CD234FF028003401C8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296534CC234FF028003401C8 /* Utilities.swift */; };
 		296534CF234FF1DE003401C8 /* FormUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296534CE234FF1DE003401C8 /* FormUtilities.swift */; };
+		296534D1234FF485003401C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 296534D0234FF485003401C8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		290C9047234FEB3800C4938B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		296534CC234FF028003401C8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		296534CE234FF1DE003401C8 /* FormUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormUtilities.swift; sourceTree = "<group>"; };
+		296534D0234FF485003401C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				290C9038234FEB0000C4938B /* Assets.xcassets */,
 				290C903A234FEB0000C4938B /* LaunchScreen.storyboard */,
 				290C903D234FEB0000C4938B /* Info.plist */,
+				296534D0234FF485003401C8 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseCustomLogin;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				290C903C234FEB0000C4938B /* LaunchScreen.storyboard in Resources */,
+				296534D1234FF485003401C8 /* GoogleService-Info.plist in Resources */,
 				290C9039234FEB0000C4938B /* Assets.xcassets in Resources */,
 				290C9037234FEAFF00C4938B /* Main.storyboard in Resources */,
 			);
