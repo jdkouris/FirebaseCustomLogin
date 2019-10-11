@@ -221,7 +221,7 @@
         <!--Home View Controller-->
         <scene sceneID="wXK-df-ANE">
             <objects>
-                <viewController id="qgS-ci-H4H" customClass="HomeViewController" customModule="FirebaseCustomLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="qgS-ci-H4H" customClass="HomeViewController" customModule="FirebaseCustomLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iNq-jp-dzQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
