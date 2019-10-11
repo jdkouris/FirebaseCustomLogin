@@ -20,6 +20,7 @@
 		296534CF234FF1DE003401C8 /* FormUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296534CE234FF1DE003401C8 /* FormUtilities.swift */; };
 		296534D1234FF485003401C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 296534D0234FF485003401C8 /* GoogleService-Info.plist */; };
 		29A7FE76234FFF0400663E20 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7FE75234FFF0400663E20 /* Constants.swift */; };
+		29A7FE79235003CB00663E20 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 29A7FE78235003CB00663E20 /* loginbg.mp4 */; };
 		593FC129E575EE755FE6C76F /* Pods_FirebaseCustomLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C7EC14EA21D9A72C8920D5 /* Pods_FirebaseCustomLogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		296534CE234FF1DE003401C8 /* FormUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormUtilities.swift; sourceTree = "<group>"; };
 		296534D0234FF485003401C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		29A7FE75234FFF0400663E20 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		29A7FE78235003CB00663E20 /* loginbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginbg.mp4; sourceTree = "<group>"; };
 		3847AE61F2430B66CE9D02D4 /* Pods-FirebaseCustomLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseCustomLogin.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseCustomLogin/Pods-FirebaseCustomLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		67C7EC14EA21D9A72C8920D5 /* Pods_FirebaseCustomLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseCustomLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 			children = (
 				290C902F234FEAFF00C4938B /* AppDelegate.swift */,
 				290C9031234FEAFF00C4938B /* SceneDelegate.swift */,
+				29A7FE772350037700663E20 /* Media */,
 				296534CB234FF016003401C8 /* Helpers */,
 				290C9049234FEB4300C4938B /* View Controllers */,
 				290C9035234FEAFF00C4938B /* Main.storyboard */,
@@ -118,6 +121,14 @@
 				29A7FE75234FFF0400663E20 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		29A7FE772350037700663E20 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				29A7FE78235003CB00663E20 /* loginbg.mp4 */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 		E92E19DCDC67EA487AA77E26 /* Frameworks */ = {
@@ -189,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				290C903C234FEB0000C4938B /* LaunchScreen.storyboard in Resources */,
+				29A7FE79235003CB00663E20 /* loginbg.mp4 in Resources */,
 				296534D1234FF485003401C8 /* GoogleService-Info.plist in Resources */,
 				290C9039234FEB0000C4938B /* Assets.xcassets in Resources */,
 				290C9037234FEAFF00C4938B /* Main.storyboard in Resources */,
